@@ -1,0 +1,38 @@
+h1{
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.calculator-gen-div{
+    display: grid;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    margin-top: 70px;
+    border: solid 1px;
+    grid-template-rows: 55px 1fr;
+}
+
+.screen{
+    text-align: center;
+    border: solid 1px;
+}
+
+.buttons-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+button {
+    border: solid 1px;
+    font-size: 20px;
+}
+
+.result-p{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 13px;
+    font-size: 25px;
+}
